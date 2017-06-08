@@ -1,12 +1,20 @@
 ---
 layout: page
 title:  "Bakgrunn"
-summary: "hei og hå"
+summary: "Veilederne på disse sidene er et felles tverr-etatlig forsøk på å harmonisere anbefalinger for hvordan Oauth2 bør brukes innen offetnlig sektor i Norge."
 keywords: sample
 sidebar: oauth2
 permalink: o2_intro.html
 folder: oauth2
 ---
 
-Flere aktører i offentlig sektor jobber med Oauth2-baserte løsninger.  Veilederne på disse sidene er et felles tverr-etatlig forsøk på å harmonisere anbefalinger for hvordan Oauth2 bør brukes innen offetnlig sektor i Norge.
+
+
+Følgende moment har vært viktige ved utarbeidelse av disse veilederne:
+
+* Følge standardene i så stor grad som mulig
+* Bred støtte i etablerte rammeverk og produkter
+* Støtte distributert arkitektur med automome sektor-spesifikke løsninger
+* Understøtte bruk av  felleskomponenter
+* Sektor-spesifikke løsninger må samvirke 
 
