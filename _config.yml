@@ -92,7 +92,7 @@ defaults:
       layout: "post"
       comments: true
       search: true
-      sidebar: home_sidebar
+      sidebar: oauth2
       topnav: topnav
   -
     scope:
