@@ -7,6 +7,26 @@ permalink: systemlandskap.html
 summary: "Hvordan ser Oauth2-verdenen ut?"
 ---
 
+
+
+
+
+<div class="mermaid">
+sequenceDiagram
+
+Bruker->>Klient: Ønsker å bruke tjeneste
+Klient->>AS: Kan eg få? (authorize/)
+AS->>Bruker: Er det greitt?  (innlogging +evt. samtykke)
+Bruker->>AS: Jada
+AS->>Klient: Returnerer tokens (Access_token + evt id_token)
+Klient->>RS: Bruk API (med access_token)
+RS->>AS:  Validere token (access_token)
+AS->>RS: OK
+RS->>Klient: Resultat av API-operasjon
+</div>
+
+
+
 Overordnet systemlandskap
 ----
 
@@ -15,8 +35,8 @@ Overordnet systemlandskap
 graph LR
 
  subgraph autorisasjonslag
-  altinn 
   dataporten
+  altinn 
   idporten-oidc
   ehelse-as
  end
@@ -63,16 +83,3 @@ graph LR
 
 
 
-
-
-<div class="mermaid">
-sequenceDiagram
-
-Klient->>AS: Kan eg få?
-AS->>Bruker: Er det greitt?
-AS->>Klient:  Access_token (+ evt id_token)
-Klient->>RS: Bruk API (med access_token)
-RS->>AS:  Validere token (access_token)
-AS->>RS: OK
-RS->>Klient: Resultat av API-operasjon
-</div>
