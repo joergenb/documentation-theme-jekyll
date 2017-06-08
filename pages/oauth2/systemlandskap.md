@@ -2,6 +2,7 @@
 layout: page
 title: "Systemlandskap"
 summary: "hei og hå"
+keywords: sample
 folder: oauth2
 sidebar: oauth2
 ---
