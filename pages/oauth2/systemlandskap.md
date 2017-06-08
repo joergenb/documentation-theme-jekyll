@@ -78,7 +78,6 @@ graph LR
  subgraph orkestrering
    autorisasjons-api
    
-   dataporten-- tilbyr --- autorisasjons-api 
   end
 
 </div>
