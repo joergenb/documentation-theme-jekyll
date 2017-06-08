@@ -94,16 +94,7 @@ defaults:
       search: true
       sidebar: oauth2
       topnav: topnav
-  -
-    scope:
-      path: "pages/oauth2"
-      type: "pages"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      sidebar: home_sidebar
-      topnav: topnav
+  
 # these are defaults used for the frontmatter for these file types
 
 sidebars:
