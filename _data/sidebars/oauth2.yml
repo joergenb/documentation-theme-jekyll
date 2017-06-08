@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Bakgrunn
+  - title: Bakgrunnsss
     output: web, pdf
     folderitems:
 
