@@ -2,7 +2,7 @@
 layout: page
 title: Systemlandskap
 folder: oauth2
-
+sidebar: oauth2
 ---
 
 Følgende moment har vært viktige ved utarbeidelse av disse veilederne:
