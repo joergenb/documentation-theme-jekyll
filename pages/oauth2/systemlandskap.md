@@ -75,15 +75,11 @@ graph LR
   native-->mittapi
  end
  
- subgraph orkestrering
-   autorisasjons-api
-   
-  end
-
+ 
 </div>
 
 
-
+### ulike typer klienter
 
 | Klient | Beskrivelse | Anbefalinger |
 | --- | --- | --- |
