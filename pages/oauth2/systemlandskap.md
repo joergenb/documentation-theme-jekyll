@@ -53,8 +53,8 @@ graph LR
   mittapi["Mitt API"]
   dittapi["Annet API"]
 
-  mittapi-. kontrollerer tilgang .- dataporten
-  dittapi-. kontrollerer tilgang .- altinn
+  mittapi-. kontrollerer tilgang .- altinn
+  dittapi-. kontrollerer tilgang .- dataporten
  end
 
  subgraph Klienter 
