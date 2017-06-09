@@ -1,10 +1,11 @@
 ---
-title: Referanser
-pageid: references
-layout: default
-description: Referanser
-isHome: false
-hiddenInToc: false
+layout: page
+title: "Referanser"
+summary: "Referanser"
+sidebar: oauth2
+folder: oauth2
+permalink: sec_references.html
+
 ---
 
 ## Referanser

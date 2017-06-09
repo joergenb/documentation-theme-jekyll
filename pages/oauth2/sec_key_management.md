@@ -1,10 +1,11 @@
 ---
-title: Anbefalte tiltak for nøkkel og sertifikathåndtering
-pageid: veileder-key-cert
-layout: default
-description: Anbefalte tiltak for nøkkel og sertifikathåndtering
-isHome: false
-hiddenInToc: false
+layout: page
+title: "Anbefalte tiltak for nøkkel og sertifikathåndtering"
+summary: "Anbefalte tiltak for nøkkel og sertifikathåndtering"
+sidebar: oauth2
+folder: oauth2
+permalink: sec_key_management.html
+
 ---
 
 ## Klienthemmeligheter

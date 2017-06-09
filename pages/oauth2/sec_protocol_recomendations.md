@@ -1,10 +1,10 @@
 ---
-title: Anbefalte tiltak i protokollen
-pageid: veileder-protocol
-layout: default
-description: Anbefalte tiltak i protokollen
-isHome: false
-hiddenInToc: false
+layout: page
+title: "Anbefalte tiltak i protokollen"
+summary: "Anbefalte tiltak i protokollen"
+sidebar: oauth2
+folder: oauth2
+permalink: sec_protocol_recomendations.html
 ---
 
 ## Bruk av flyter

@@ -1,10 +1,10 @@
 ---
-title: Anbefalte tiltak for transport-/kanalsikring
-pageid: veileder-channel
-layout: default
-description: Anbefalte tiltak for transport-/kanalsikring
-isHome: false
-hiddenInToc: false
+layout: page
+title: "Anbefalte tiltak for transport-/kanalsikring"
+summary: "Anbefalte tiltak for transport-/kanalsikring"
+sidebar: oauth2
+folder: oauth2
+permalink: sec_transport_security.html
 ---
 
 ## Anbefalte tiltak for transport-/kanalsikring
