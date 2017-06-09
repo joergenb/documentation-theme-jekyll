@@ -1,10 +1,9 @@
 ---
-title: Anbefalte tiltak for klient
-pageid: veileder-client
-layout: default
-description: Anbefalte tiltak for klient
-isHome: false
-hiddenInToc: false
+layout: page
+title: "Anbefalte tiltak for klient"
+summary: "Anbefalte tiltak for klient"
+sidebar: oauth2
+
 permalink: /:path/
 ---
 
