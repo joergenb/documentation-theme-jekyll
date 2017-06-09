@@ -39,8 +39,8 @@ samtykke kan vere eksplisitt (bruker får presentert en side med "ønsker du at 
 I offentlig sektor har vi mange aktører som bruker Oauth2/OpenID Connect.   Figuren under viser en overorndet arkitektur.
 
 
-<div class="mermaid">
 graph LR
+<div class="mermaid">
 
  subgraph autorisasjonslag
   dataporten
@@ -53,8 +53,8 @@ graph LR
   mittapi["Mitt API"]
   dittapi["Annet API"]
 
-  mittapi-. kontrollerer tilgang .- altinn
-  dittapi-. kontrollerer tilgang .- dataporten
+  mittapi-. kontrollerer tilgang .- dataporten
+  dittapi-. kontrollerer tilgang .- altinn
  end
 
  subgraph Klienter 
