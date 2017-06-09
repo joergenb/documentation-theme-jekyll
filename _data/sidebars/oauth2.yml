@@ -48,7 +48,7 @@ entries:
         url: /sec_protocol_recomendations.html
         output: web, pdf
         
-      - title: Transport-sikkerhet
+      - title: Transportsikkerhet
         url: /sec_transport_security.html
         output: web, pdf
         
@@ -60,7 +60,7 @@ entries:
         url: /sec_crypto_recomendations.html
         output: web, pdf
       
-      - title: Klient-anbefaliner
+      - title: Klient-anbefalinger
         url: /sec_client_recomendations.html
         output: web, pdf
     
