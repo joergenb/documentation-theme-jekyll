@@ -61,7 +61,7 @@ entries:
         output: web, pdf
       
       - title: Klient-anbefaliner
-        url: sec_client_recommendations.html
+        url: sec_client_recomendations.html
         output: web, pdf
     
     
