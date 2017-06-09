@@ -5,6 +5,7 @@ layout: default
 description: Anbefalte tiltak for klient
 isHome: false
 hiddenInToc: false
+permalink: /:path/
 ---
 
 ## Beskyttelse mot CSRF og replay-attacs
