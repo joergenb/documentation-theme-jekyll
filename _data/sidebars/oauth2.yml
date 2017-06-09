@@ -46,18 +46,22 @@ entries:
     
       - title: Protokoll-anbefalinger
         url: sec_protocol_recomendations.html
+        output: web, pdf
         
       - title: Transport-sikkerhet
         url: sec_transport_security.html
+        output: web, pdf
         
       - title: Håndtering av hemmeligheter
         url: sec_key_management.html
+        output: web, pdf
         
       - title: Kryptografiske anbefalinger
         url: sec_crypto_recomendations.html
+        output: web, pdf
       
       - title: Klient-anbefaliner
         url: sec_client_recommendations.html
-    
+        output: web, pdf
     
     
