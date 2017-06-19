@@ -4,15 +4,16 @@ title: "Autentiseringsnær autorisasjon"
 sidebar: idporten
 permalink: idp_bruk_authauth.html
 
-summary: "Autorisasjonen utstedt iforbindelse med en autentisering"
+summary: "I forbindelse med en OpenID Connect-autentisering kan ID-portens OpenID Connect provider også autorisere en tjeneste til å opptre på vegne av innbyggeren opp mot et API tilbudt av en 3.dje-part."
 ---
 
 
 
 ## Om bruksområdet
 
+Dette er den klassise Oauth2-flyten, der innbyggeren samtykker - enten eksplisitt eller implisitt - til at tjenesten kan bruke et API på vegne av seg selv. I ID-porten-sammenheng vil vanligvis samtykket være implisitt, siden det er autentiseringshandlingen som i seg selv tolkes som det informerte samtykket (“Ved å logge inn i tjenesten godtar du at vi henter opplysninger om deg fra Vegveseent”).
 
-Oauth2 er en protokoll for autorisasjon.  Den klassiske flyten starter med en bruker som ønsker å benytte en tjeneste (kalla klient), og denne tjenesten har igjen behov for å bruke et API som en 3dje-part tilbyr (kalla ressurs-server, RS).  API-operasjonen skjer vanligvis i kontekst av den aktuelle brukeren, slik at APIet må forsikre seg om at brukeren har samtykket til at tjenesten kan operere på vegne av brukeren opp mot APIet.  APIet har valgt å la en ekstern autorisasjons-server (AS) ta ansvaret for bruker-dialogen. 
+Samtykket, eller autorisasjonen, blir av ID-porten utlevert som et access_token. Tjenesten bruker så dette access_tokenet når den skal aksessere APIet.
 
 <div class="mermaid">
 sequenceDiagram

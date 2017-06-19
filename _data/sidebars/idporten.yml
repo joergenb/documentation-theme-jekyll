@@ -2,7 +2,7 @@
 
 entries:
 - title: ID-Porten OIDC
-  product: idporten
+  product: ID-porten OIDC
   version: 
   folders:
 
@@ -19,26 +19,11 @@ entries:
       output: pdf
       type: frontmatter
 
+
   - title: Bakgrunn
     output: web, pdf
+    url: /idp_index.html
     folderitems:
-
-#    - title: Get started
-#      url: /index.html
-#      output: web, pdf
-#      type: homepage
-
-  - title: Into
-    output: web, pdf
-    folderitems:
-
-    - title: Systemlandskap
-      url: /systemlandskap.html
-      output: web, pdf
-
-    - title: Klienter
-      url: /klienter.html
-      output: web, pdf
       
   - title: Bruksområder
     output: web, pdf
@@ -56,12 +41,6 @@ entries:
         url: /idp_bruk_long.html
         output: web, pdf
         
-      - title: Kryptografiske anbefalinger
-        url: /sec_crypto_recomendations.html
-        output: web, pdf
-      
-      - title: Klient-anbefalinger
-        url: /sec_client_recomendations.html
-        output: web, pdf
+  
     
     
