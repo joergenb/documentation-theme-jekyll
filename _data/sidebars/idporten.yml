@@ -1,0 +1,67 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: ID-Porten OIDC
+  product: idporten
+  version: 
+  folders:
+
+  - title: idporten(pdf)
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage
+      output: pdf
+      type: frontmatter
+
+  - title: Bakgrunn
+    output: web, pdf
+    folderitems:
+
+#    - title: Get started
+#      url: /index.html
+#      output: web, pdf
+#      type: homepage
+
+  - title: Into
+    output: web, pdf
+    folderitems:
+
+    - title: Systemlandskap
+      url: /systemlandskap.html
+      output: web, pdf
+
+    - title: Klienter
+      url: /klienter.html
+      output: web, pdf
+      
+  - title: Bruksområder
+    output: web, pdf
+    folderitems:
+    
+      - title: Autentisering
+        url: /idp_bruk_auth.html
+        output: web, pdf
+        
+      - title: Autentiseringsnær autorisasjon
+        url: /idp_bruk_authauth.html
+        output: web, pdf
+        
+      - title: Langt-levende innlogginger
+        url: /idp_bruk_long.html
+        output: web, pdf
+        
+      - title: Kryptografiske anbefalinger
+        url: /sec_crypto_recomendations.html
+        output: web, pdf
+      
+      - title: Klient-anbefalinger
+        url: /sec_client_recomendations.html
+        output: web, pdf
+    
+    

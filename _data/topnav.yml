@@ -14,6 +14,8 @@ topnav_dropdowns:
       folderitems:
         - title: Oauth2
           url: /o2_intro.html
+        - title: ID-porten
+          url: /idp_index.html
 #        - title: Jekyll Documentation Theme
 #          url: /mydoc_introduction.html
 #        - title: Product 1
